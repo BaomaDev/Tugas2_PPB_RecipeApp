@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:tugas2/screens/crud_screen.dart';
+import 'package:tugas2/screens/crud_screen_gpt.dart';
 import 'models/recipe.dart';
 
 void main() async {
@@ -29,7 +30,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: RecipeStaticPage(),
+      home: CrudPage(),
     );
   }
 }
